@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Projekt993 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993 Win64 Debug Build",
+			"program": "Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Projekt993 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993 Win64 DebugGame Build",
+			"program": "Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Projekt993 (Development)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993 Win64 Development Build",
+			"program": "Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Projekt993 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993 Win64 Shipping Build",
+			"program": "Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Projekt993 (Test)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993 Win64 Test Build",
+			"program": "Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Projekt993Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993Editor Win64 Debug Build",
+			"program": "Z:\\Program Files\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Projekt993.uproject"
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Projekt993Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993Editor Win64 DebugGame Build",
+			"program": "Z:\\Program Files\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Projekt993.uproject"
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Projekt993Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Projekt993Editor Win64 Development Build",
+			"program": "Z:\\Program Files\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Projekt993.uproject"
+			],
+			"cwd": "Z:\\Program Files\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Z:\\Program Files\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "Z:\\Program Files\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\Projekt993.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "Z:\\Program Files\\UE_4.26"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Projekt993Editor Editor Win64 Development (Projekt993)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "Z:\\StudioBeluche\\UnrealengineProjects\\Projekt993\\.vscode\\compileCommands_Projekt993.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
